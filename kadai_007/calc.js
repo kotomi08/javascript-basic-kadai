@@ -10,7 +10,7 @@ if(num % 3 === 0 && num % 5 === 0){
 }
 
 //変数(num)が3の倍数の場合
-if(num % 3 === 0){
+else if(num % 3 === 0){
     console.log('3の倍数です')
 }
 
