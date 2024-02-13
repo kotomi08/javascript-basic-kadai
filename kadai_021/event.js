@@ -8,7 +8,6 @@ const mkText = document.getElementById('txet');
 clickBtn.addEventListener('click', () => {
     // 2秒後（2000秒）後に、非同期処理を実行する
     setTimeout(() => {
-        const mkText = document.createElement('text');
         text.textContent = 'ボタンをクリックしました';
     },2000);
 });
