@@ -1,8 +1,7 @@
-// 関数を定義する
+// 引数を２倍し、その値を戻り値として返す
 const double = (num) => {
-    // 引数numを二乗しその値を出力する
-    console.log(num * 2);
+    return num * 2
 }
 
-// 関数を呼び出し、引数として計算結果を返す
-double(50);
+// 関数の戻り値を出力する
+console.log(double(50));
